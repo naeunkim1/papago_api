@@ -7,8 +7,7 @@ import json
 app = Flask(__name__)
 
 # 감지 & 번역 공동 API key
-client_id = "zZGbhHYOyiFYUkVegb_V"
-client_secret = "6LU2EVlpa6"
+
 
 # papago 메인 화면
 @app.route("/") # localhost : 5000/ 라고 입력했을 때 렌더링 되는 화면
